@@ -1,0 +1,15 @@
+.exercise-details{
+    padding: 10px;
+}
+
+.exercise-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}

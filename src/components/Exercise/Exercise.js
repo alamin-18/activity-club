@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import './Exercise.css'
 
 const Exercise = () => {
@@ -22,7 +23,7 @@ const Exercise = () => {
                     activitys.map(activity => <Card handleButton={handleButton} key={activity.id } activity={activity}></Card>)
                 }
             </div>
-            <div className="status"><h2>status</h2></div>
+            <div className="status"><ExerciseDetails></ExerciseDetails></div>
         </div>
     );
 };
