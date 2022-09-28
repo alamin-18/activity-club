@@ -7,7 +7,7 @@
     "gender": "male",
     "about": "Ut commodo dolor labore excepteur officia Lorem et voluptate mollit. Adipisicing aliquip ea veniam duis commodo. Consequat labore id cupidatat id adipisicing. Minim deserunt elit aliqua ad ad pariatur do incididunt exercitation exercitation pariatur.\r\n",
     "registered": "2019-11-17T02:01:02 -06:00",
-    "time": "30"
+    "time": 30
   },
   {
     "id": "63348479da27e99568365297",
@@ -17,7 +17,7 @@
     "gender": "female",
     "about": "Incididunt mollit in proident fugiat consequat aliqua sunt mollit ex qui cillum labore id occaecat. Eiusmod elit dolore nisi duis nostrud dolore cillum. Officia sunt ex qui officia irure.\r\n",
     "registered": "2017-04-06T05:14:24 -06:00",
-    "time": "35"
+    "time": 35
   },
   {
     "id": "63348479f97af941416e9e41",
@@ -27,7 +27,7 @@
     "gender": "Female",
     "about": "Eu excepteur aute deserunt duis veniam. Fugiat aute enim elit voluptate aliqua nisi tempor mollit ex tempor magna. Velit velit consequat ea exercitation tempor excepteur magna occaecat velit.\r\n",
     "registered": "2020-03-12T11:04:36 -06:00",
-    "time": "32"
+    "time": 32
   },
   {
     "id": "6334847947f5325d4d172067",
@@ -37,7 +37,7 @@
     "gender": "Female",
     "about": "Amet esse officia voluptate nisi cupidatat laborum aute commodo ipsum. Culpa aliquip irure reprehenderit duis et sint ex eu laborum. Ipsum sint proident aliqua incididunt duis in id qui irure reprehenderit veniam eiusmod Lorem irure. Veniam aliqua minim dolor dolore irure esse. Ea elit magna amet consectetur ex voluptate. Reprehenderit ullamco nostrud pariatur ea nulla.\r\n",
     "registered": "2018-05-08T01:22:11 -06:00",
-    "time": "33"
+    "time": 33
   },
   {
     "id": "63348479305b8cf8862b2aa6",
@@ -47,7 +47,7 @@
     "gender": "female",
     "about": "Enim sunt aliqua laboris esse eu irure do nisi eiusmod quis enim adipisicing excepteur voluptate. Tempor aliqua amet non commodo nulla cupidatat irure reprehenderit minim. Adipisicing et eiusmod eiusmod velit sit voluptate duis deserunt voluptate.\r\n",
     "registered": "2015-05-25T06:06:48 -06:00",
-    "time": "35"
+    "time": 35
   },
   {
     "id": "63348479a268b898b579cda9",
@@ -57,7 +57,7 @@
     "gender": "male",
     "about": "Elit Lorem minim culpa fugiat laboris dolore laborum aliqua reprehenderit veniam. Esse laborum minim cillum anim minim veniam officia labore minim magna qui. Nostrud cillum magna eiusmod excepteur labore ea dolore pariatur incididunt magna veniam aute do mollit. Aute ex ut fugiat nostrud ullamco anim quis nostrud. Ipsum cupidatat velit amet non sunt deserunt veniam eu est deserunt duis aliqua officia. Aliqua quis deserunt labore officia reprehenderit nulla voluptate incididunt ad velit. Lorem aute labore irure nisi laboris fugiat enim voluptate quis mollit laboris aute enim.\r\n",
     "registered": "2019-09-17T06:22:38 -06:00",
-    "time": "38"
+    "time": 38
   },
   {
     "id": "6334847960a94a205208f699",
@@ -67,7 +67,7 @@
     "gender": "male",
     "about": "Ad anim irure laboris velit anim elit minim mollit veniam. Magna sit reprehenderit quis ex aute ut aute excepteur nostrud deserunt eu nisi incididunt velit. Fugiat aliqua cupidatat ipsum id veniam dolore consectetur elit sunt duis ipsum minim.\r\n",
     "registered": "2020-02-10T06:59:17 -06:00",
-    "time": "37"
+    "time": 37
   },
   {
     "id": "6334847951af4855e4f24750",
@@ -77,6 +77,6 @@
     "gender": "female",
     "about": "Fugiat anim laboris deserunt labore magna sit consectetur labore ex voluptate duis aliqua quis. Nostrud velit proident ipsum nisi commodo sit exercitation ipsum reprehenderit cupidatat nostrud laborum. Fugiat laborum Lorem do eiusmod adipisicing proident non esse aliquip minim.\r\n",
     "registered": "2014-10-07T12:24:09 -06:00",
-    "time": "29"
+    "time": 29
   }
 ]

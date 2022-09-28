@@ -6,6 +6,7 @@ import './Exercise.css'
 const Exercise = () => {
     const [activitys,setActivitys] = useState([])
     const [detail,setDetail] = useState([])
+    
     useEffect(()=>{
         fetch('fakedata.json')
         .then(res => res.json())
@@ -23,7 +24,7 @@ const Exercise = () => {
                     activitys.map(activity => <Card handleButton={handleButton} key={activity.id } activity={activity}></Card>)
                 }
             </div>
-            <div className="status"><ExerciseDetails></ExerciseDetails></div>
+            <div className="status"><ExerciseDetails details={detail}></ExerciseDetails></div>
         </div>
     );
 };

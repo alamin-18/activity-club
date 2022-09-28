@@ -13,3 +13,26 @@
     font-size: 1.5rem;
     margin-bottom: 5px;
 }
+.activity-btn{
+    font-size: 2rem;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 13px;
+    
+}
+.break-btn-div{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.break-btn{
+    padding: 10px;
+    border-radius: 100%;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
