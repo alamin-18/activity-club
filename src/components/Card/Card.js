@@ -9,8 +9,8 @@ const Card = ({handleButton,activity}) => {
             <img src={img} alt="" />
             <div>
                 <h1>{name}</h1>
-                <p>For Age:{age}</p>
-                <p>Time required:{time}s</p>
+                <p>For Age: {age}</p>
+                <p>Time required: {time}s</p>
             </div>
             </div>
             <button onClick={()=>handleButton(activity)} className='btn'>Add To list</button>

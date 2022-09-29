@@ -1,0 +1,18 @@
+.info{
+    display: flex;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+    border-radius: 13px;
+}
+.personal-info img{
+    width: 100px;
+    border-radius: 200px;
+}
+
+.my-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

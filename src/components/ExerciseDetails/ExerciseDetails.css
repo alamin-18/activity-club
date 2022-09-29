@@ -1,6 +1,7 @@
 .exercise-details{
     padding: 10px;
     font-family: 'Poppins', sans-serif;
+    position: fixed;
 }
 
 .exercise-time{
@@ -19,6 +20,7 @@
     background-color: cornflowerblue;
     color: #fff;
     padding: 16px 35px;
+    width: 100%;
     border: none;
     border-radius: 13px;
     
