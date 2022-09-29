@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css'
 
 const Card = ({handleButton,activity}) => {
-    const {img,name,time,age} = activity
+    const {img,name,time,age,about} = activity
     return (
         <div className='card-container'>
             <div className='card'>
