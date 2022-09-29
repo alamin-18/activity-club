@@ -23,14 +23,15 @@ const ExerciseDetails = ({details}) => {
         totalSecode = detail.time +totalSecode    
     }
     //break event handle
-    let setBreakTime = {break:time}
+    let setBreakTime = {break:0}
     const breakHandle = (time)=>{
         setTime(time)
         setBreakTime.break =time.time
         localStorage.setItem("break-time" ,JSON.stringify(setBreakTime))
     }
     //get local storege
-     let getBrakTime = JSON.parse(localStorage.getItem("break-time"));
+     let getBreakTime = JSON.parse(localStorage.getItem("break-time"));
+     
      // return xml
     return (
         <div className='exercise-details'>
@@ -51,7 +52,7 @@ const ExerciseDetails = ({details}) => {
                 </div>
                 <div className='exercise-time'>
                     <p>Break Time</p>
-                    <p>{getBrakTime.break} Secode</p>
+                    <p>{getBreakTime ? getBreakTime.break: 0 } Secode</p>
                 </div>
             </div>
             <button onClick={notify} className='activity-btn'>Activity Completed</button>
