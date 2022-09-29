@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import logo from '../../img/person-running-solid.svg'
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 import Card from '../Card/Card';
@@ -22,7 +22,7 @@ const Exercise = () => {
         <div className='container'>
                 <div>
                     <div className='hedaer'>
-                        <h1><FontAwesomeIcon icon="fa-solid fa-person-swimming" /> fitness Club</h1>
+                        <h1><img src={logo} alt="" /> fitness Club</h1>
                         <p>Select today’s exercise</p>
                     </div>
             

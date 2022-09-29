@@ -15,6 +15,9 @@
 .hedaer{
     margin: 5%;
 }
+.hedaer img {
+    width: 100px;
+}
 .hedaer h1{
     color: cornflowerblue;
     font-size: 3rem;
@@ -24,6 +27,15 @@
     font-size: 2rem;
 }
 
+@media only screen and (max-width: 992px){
+    .container{
+        grid-template-columns: 2fr 1fr;
+        margin-top: 10px;
+    }
+    .exercise{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 @media only screen and (max-width: 600px){
     .exercise{
         grid-template-columns: 1fr;
