@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import './ExerciseDetails.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const ExerciseDetails = ({details}) => {
+    const notify = () => toast("Activity Completed!");
     const breakTime =[
         {id:1,time:10},
         {id:2,time:20},
@@ -16,14 +20,18 @@ const ExerciseDetails = ({details}) => {
     
     let totalSecode =0
     for (const detail of details) {
-        totalSecode = detail.time +totalSecode
-        
+        totalSecode = detail.time +totalSecode    
     }
+    //break event handle
+    let setBreakTime = {break:time}
     const breakHandle = (time)=>{
         setTime(time)
-        
+        setBreakTime.break =time.time
+        localStorage.setItem("break-time" ,JSON.stringify(setBreakTime))
     }
-    console.log(time);
+    //get local storege
+     let getBrakTime = JSON.parse(localStorage.getItem("break-time"));
+     // return xml
     return (
         <div className='exercise-details'>
             <PersonalInfo></PersonalInfo>
@@ -43,10 +51,11 @@ const ExerciseDetails = ({details}) => {
                 </div>
                 <div className='exercise-time'>
                     <p>Break Time</p>
-                    <p>{time.time} Secode</p>
+                    <p>{getBrakTime.break} Secode</p>
                 </div>
             </div>
-            <button className='activity-btn'>Activity Completed</button>
+            <button onClick={notify} className='activity-btn'>Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };

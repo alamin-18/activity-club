@@ -16,7 +16,6 @@ const Exercise = () => {
         const  details = [...detail,activity]
         setDetail(details)
     }
-    console.log(detail)
     return (
         <div className='container'>
             <div className="exercise">
